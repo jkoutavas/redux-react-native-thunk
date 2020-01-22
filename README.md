@@ -6,4 +6,6 @@ Updated version of [enappd/react-native-redux-thunk](https://github.com/enappd/r
 
 ```
 $ react-native init myReduxApp
+$ cd myReduxApp
+$ yarn add redux react-redux redux-thunk
 ```
