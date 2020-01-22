@@ -12,4 +12,15 @@ $ cd myReduxApp
 $ yarn add redux react-redux redux-thunk
 ```
 
+After cloning this repo, do the following to see the app in action:
+
+```
+$ cd {clone-repo}/myReduxApp
+$ yarn install
+$ react-native run-ios
+
+```
+
+Then press the "Get Employees" button and you'll see this displayed:
+
 ![](ScreenShot.png)
