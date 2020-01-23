@@ -20,7 +20,7 @@ class App extends Component {
   render() {
     const {pageList} = this.props;
     return (
-      <SafeAreaView styles={styles.container}>
+      <SafeAreaView>
         <Button title="Get Employees" onPress={() => this.incrementCount()} />
         {pageList.map(employee => (
           <View style={styles.employeeWrapper} key={employee.id}>
@@ -42,11 +42,6 @@ class App extends Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
   textCenter: {
     textAlign: 'center',
   },
